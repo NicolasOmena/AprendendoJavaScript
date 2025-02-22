@@ -1,0 +1,79 @@
+
+Esse é um arquivo de anotações sobre JavaScript
+
+Operadores no JavaScript
+
+##__Aritméticos__##
+    + Adição     == 5 + 2  : 7
+    - Subtração == 5 - 2  : 3
+    * Multiplicação == 5 * 2  : 10
+    / Divisão   == 5 / 2  : 2.5
+    ** Potenciação == 5 ** 2  : 25
+    % Resto da divisão  == 5 % 2  : 1
+    ++ Incremento   == 5++  : 6 
+    -- Decremento   == 5--  : 4
+    
+##__Atribuição__##
+    = Atribuição == var x = 5
+    += Soma e Atribui == x += 5 // x = x + 5
+    -= Subtrai e Atribui == x -= 5 // x = x - 5
+    *= Multiplica e Atribui == x *= 5 // x = x * 5
+    /= Divide e Atribui == x /= 5 // x = x / 5
+    %= Resto e Atribui == x %= 5 // x = x % 5
+
+##__Relacionais__##
+    > Maior que         == 5 > 2  : true
+    < Menor que         == 7 < 4  : false
+    >= Maior ou Igual   == 8 >= 8 : false
+    <= Menor ou Igual   == 9 <= 7 : false
+    == Igual            == 5 == 5 : true
+    != Diferente        == 4 != 4 : False 
+
+    Idendidade
+                    5 == 5 : true
+                    5 == '5' : true
+                    5 === '5' : false
+
+##__Lógicos__##
+
+    && E - Conjunção
+        true && true = true
+        true && false = false
+        false && true = false
+        false && false = false
+
+    || OU - Disjunção
+        true || true = true
+        true || false = true
+        false || true = true
+        false || false = false
+
+    !  NÃO - Negação
+        true = false
+        false = true
+        
+##__Atribuição__##
+
+    =   Atribuição
+    +=  Soma e Atribui
+    -=  Subtrai e Atribui
+    *=  Multiplica e Atribui
+    /=  Divide e Atribui
+    %=  Resto e Atribui
+
+##__Incremento e Decremento__##
+
+    ++ Incremento
+    -- Decremento
+
+##__Operador Ternário__##
+
+    (condição) ? valor1 : valor2
+
+    var idade = 18;
+    var podeBeber = (idade >= 18) ? 'Pode beber' : 'Não pode beber';
+    console.log(podeBeber);
+
+    // retorna: Pode beber
+
+##__Ternário__##
