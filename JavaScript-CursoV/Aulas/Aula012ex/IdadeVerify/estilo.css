@@ -1,0 +1,26 @@
+body{
+    background-color: powderblue;
+    font: normal 15pt Arial
+
+}
+
+header{
+    color: white;
+    text-align: center;
+}
+
+section{
+    background: white;
+    border-radius: 12px;
+    padding: 16px;
+    width: 424px;
+    margin: auto;
+    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.531);
+
+}
+
+footer{
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
