@@ -1,6 +1,7 @@
 body{
     background-color: powderblue;
-    font: normal 15pt Arial
+    font: normal 15pt Arial;
+    display: flex;
 
 }
 
@@ -16,6 +17,8 @@ section{
     width: 424px;
     margin: auto;
     box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.531);
+    display: flex;
+    flex-direction: column;
 
 }
 
