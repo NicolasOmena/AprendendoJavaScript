@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analisador de Númeors</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Analisador de numeros</h1>
+    </header>
+
+<!--section>p+input.num+button.adicionar+select.lista+button.finalizar-->
+    <section>
+        <p>Adicione Números (Entre 1 e 100)</p>
+        <input type="number" class="num" id="num"><button id="adicionar" onclick="adci()">Adicionar</button><br>
+        <select name="tab" id="tab" class="lista"></select><button id="finalizar" onclick="fina()">Analisar Numeros</button>
+        <div id="res">
+
+        </div>
+    </section>
+    
+    <br>
+
+    <section>
+        <p>Adicionar numeros de 1 a 100 na lista<br>
+            Os números não podem se repetir<br>
+            Caso não haja número indicar um alerta<br>
+            adicionar um botã de finalizar para analisar os números<br>
+            Analisar:<br>
+            O total de numeros<br>
+            O maior valor informado<br>
+            A Soma dos numeros<br>
+            A média dos numeros</p>
+    </section>
+    <footer>
+        <p>&copy; CursoemVideo</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
